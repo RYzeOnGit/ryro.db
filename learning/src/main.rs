@@ -14,8 +14,8 @@ fn main() {
     println!("a = {}", a);
     println!("b = {}", b);
 
-    let key = "name";
-    let key2 = key.to_string();
+    let key = "name"; // &str
+    let key2 = key.to_string(); // String
     println!("{}", key2);
-
+     // Each value in Rust has exactly ONE owner at a time.
 }
